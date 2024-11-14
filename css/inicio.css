@@ -1,4 +1,10 @@
 /* Estilos para las cards */
+
+body
+{
+  background-color: #2196F3;
+   
+}
 .card-container {
     display: flex;
     flex-wrap: wrap;
@@ -17,7 +23,11 @@
 
 .card:hover {
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    scale: 1.1;
+
 }
+
+
 
 .card-title {
     font-size: 20px;
